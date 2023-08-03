@@ -92,7 +92,7 @@ class MyApp extends StatelessWidget {
                 .copyWith(secondary: kDarkButtonBg),
           ),
           debugShowCheckedModeBanner: false,
-          home: const SplashScreen(),
+          home:TabsScreen() ,
           routes: {
             '/home': (ctx) => const TabsScreen(),
             AuthScreen.routeName: (ctx) => const AuthScreen(),

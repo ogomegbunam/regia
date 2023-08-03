@@ -6,7 +6,9 @@ import 'package:academy_app/models/app_logo.dart';
 import 'package:flutter/material.dart';
 import '../constants.dart';
 
-class CustomAppBarTwo extends StatefulWidget with PreferredSizeWidget {
+
+
+class CustomAppBarTwo extends StatefulWidget implements PreferredSizeWidget {
   @override
   final Size preferredSize;
 

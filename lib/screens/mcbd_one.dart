@@ -72,7 +72,7 @@ class _McbdOneState extends State<McbdOne> with SingleTickerProviderStateMixin {
   void initState() {
     super.initState();
     bindBackgroundIsolate();
-    FlutterDownloader.registerCallback(downloadCallback);
+    FlutterDownloader.registerCallback(downloadCallback as DownloadCallback);
   }
 
   static void downloadCallback(
